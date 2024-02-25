@@ -58,6 +58,42 @@ header {
   background-color: rgb(238, 239, 221);
 }
 
+/* submenu style */
+
+nav ul .submenu {
+  position: absolute;
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 20px 45px #00000020;
+  margin-top: -50px;
+  opacity: 0;
+  z-index: -999;
+  transition: all ease 0.5s;
+}
+
+nav ul li:hover .submenu {
+  z-index: 99;
+  opacity: 1;
+  margin-top: 0;
+}
+
+nav ul .submenu li {
+  margin: 0;
+  width: 100%;
+}
+
+nav ul .submenu li a {
+  padding: 15px 20px;
+  display: inline-block;
+  width: 100%;
+}
+
+.submenu-img {
+    padding-right: 20px;
+}
+
+/* hero section style */
+
 .container {
   display: flex;
   align-items: center;
@@ -88,7 +124,7 @@ header {
 }
 
 .learn-button:hover {
-    background-color: grey;
+  background-color: grey;
 }
 
 /* nav ul {
