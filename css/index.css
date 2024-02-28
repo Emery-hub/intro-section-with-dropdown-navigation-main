@@ -89,7 +89,7 @@ nav ul .submenu li a {
 }
 
 .submenu-img {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 /* hero section style */
@@ -126,19 +126,3 @@ nav ul .submenu li a {
 .learn-button:hover {
   background-color: grey;
 }
-
-/* nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-}
-
-nav a {
-    text-decoration: none;
-    color: grey;
-} */
